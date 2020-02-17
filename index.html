@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="new s/news.css" />
+    <script src="index.js"></script>
+    <title>Activity tracker</title>
+</head>
+
+<body>
+    <div class="header">
+        <h1>Activity tracker</h1>
+    </div>
+    <div class="nav">
+        <div class="objeckt">
+            Add new activity:
+            <input type="datetime-local" id="date" min ="2018-08-01T00:00" required>
+            <input type="text" placeholder="Finish time" value="">
+            <input type="text" placeholder="Distance" value="">
+            <select class="Select">
+                <option value="" disabled selected>Type</option>
+                <option>Run</option>
+                <option>Ride</option>
+            </select>
+            <button id="save">Save</button>
+        </div>
+    </div>
+    <div class="aside1">
+        <table id="activity-list" class="table0">
+            <thead>
+                <th>Date</th>
+                <th>Activity</th>
+                <th>Distance</th>
+                <th>time</th>
+                <th>Speed</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>22 Jun 2020</td>
+                    <td>Cycling</td>
+                    <td>20km</td>
+                    <td>1h</td>
+                    <td>40Km/h</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="aside2">
+        <table type="text" class="table1">
+            <thead> Longest ride:
+            </thead>
+            <tbody></tbody>
+            <th>Date</th>
+            <th>Distance</th>
+            <th>Time</th>
+            </tbody>
+        </table>
+        <table type="text" class="table2">
+            <thead>Longest run:</thead>
+            <th>Date</th>
+            <th>Distance</th>
+            <th>Time</th>
+        </table>
+    </div>
+    <div class="aside3">
+        <table class="table3">
+            <b>
+                <thead>Total ride distance:</thead>
+            </b>
+            <tbody>
+                <th>Total</th>
+                <th>Distance</th>
+            </tbody>
+        </table>
+        <table class="table3">
+            <b>
+                <thead><b>Total run distance</thead>
+            </b>
+            <tbody>
+                <th>Total</th>
+                <th>Distance</th>
+            </tbody>
+        </table>
+    </div>
+</body>

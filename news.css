@@ -1,0 +1,114 @@
+body {
+  background-color: rgb(255, 255, 255);
+  width: 1000px;
+  margin: 0 auto;
+  padding-top: 15px;
+}
+.header {
+  border: 2px solid black;
+  padding: 20px;
+  background: rgb(250, 220, 220);
+  border-radius: 10px/10px;
+  line-height: 10px;
+  text-align: center;
+  margin: 0 0 15px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.nav {
+  border: 2px solid black;
+  padding: 20px;
+  background: rgb(173, 255, 207);
+  border-radius: 10px/10px;
+  line-height: 10px;
+  text-align: center;
+  margin: 5px;
+}
+input {
+  border: 1.5px solid rgb(175, 174, 174);
+  border-radius: 4px;
+  padding: 0.5em 2em;
+  margin: 8px 2px 5px;
+}
+.Select {
+  padding: 0.5em 2em;
+  border: 1.5px solid rgb(175, 174, 174);
+  border-radius: 4px;
+}
+#save {
+  display: inline-block;
+  color: rgb(0, 0, 0);
+  font-weight: 700;
+  text-decoration: none;
+  user-select: none;
+  padding: 0.5em 2em;
+  outline: none;
+  border: 2px solid;
+  border-radius: 1px;
+  transition: 0.2s;
+}
+#save:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+#save:active {
+  background: rgb(54, 52, 52);
+}
+.aside1 {
+  border: 2px solid black;
+  float: left;
+  display: block;
+  padding: 20px;
+  width: 490px;
+  background: rgb(216, 179, 179);
+  border-radius: 5px/5px;
+  line-height: 5px;
+  text-align: center;
+  margin: 5px;
+}
+.aside2 {
+  border: 2px solid black;
+  float: right;
+  display: block;
+  position: relative;
+  padding: 20px;
+  width: 400px;
+  background: rgb(150, 150, 150);
+  border-radius: 5px/5px;
+  line-height: 10px;
+  text-align: center;
+  margin: 5px;
+}
+.aside3 {
+  border: 2px solid black;
+  float: right;
+  clear: both;
+  position: relative;
+  display: block;
+  padding: 20px;
+  width: 400px;
+  background: rgb(200, 183, 235);
+  border-radius: 5px/5px;
+  line-height: 5px;
+  text-align: center;
+  margin: 5px;
+}
+.table0 {
+  border-spacing: 35px 12px;
+  position: relative;
+  display: block;
+  border-radius: 3px/3px;
+}
+.table1 {
+  text-align: center;
+  border-spacing: 70px 30px;
+  margin: 2px;
+}
+.table2 {
+  text-align: center;
+  border-spacing: 70px 30px;
+  margin: 2px;
+}
+.table3 {
+  text-align: center;
+  border-spacing: 70px 30px;
+  margin: 2px;
+}
